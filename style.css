@@ -7,24 +7,24 @@ body {
 
 .row {
     display: flex;
-    background-color: black;
-    height: 500px;
-    margin: 0;
+    /* background-color: black;
+    height: 150px;
+    margin: 0; */
 }
 
-.col {
+.col, .col-2, .col-3 {
     background-color: darkturquoise;
-    padding: 20px;
+    padding: 15px;
     margin: 12px;
     color: rgb(73, 73, 73);
-    height: 55px;
+    height: 70px;
     flex: 1;
 }
 
-/* .second-row {
-    display: flex;
+.col-2 {
+    flex: 2;
 }
 
-.colum1.2 {
-    
-} */
+.col-3 {
+    flex: 3;
+}
