@@ -1,0 +1,30 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    background-color: black;
+    height: 500px;
+    margin: 0;
+}
+
+.col {
+    background-color: darkturquoise;
+    padding: 20px;
+    margin: 12px;
+    color: rgb(73, 73, 73);
+    height: 55px;
+    flex: 1;
+}
+
+/* .second-row {
+    display: flex;
+}
+
+.colum1.2 {
+    
+} */
